@@ -269,6 +269,12 @@ def run_test_count_sines_vs_cosines():
     print('Test 5 expected:', expected)
     print('       actual:  ', answer)
 
+    # Test 6:
+    expected = 69
+    answer = count_sines_vs_cosines(69)
+    print('Test 6 expected:', expected)
+    print('       actual:  ', answer)
+
 
 def count_sines_vs_cosines(m):
     count = 0
